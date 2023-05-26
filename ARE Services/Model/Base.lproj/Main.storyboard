@@ -23,7 +23,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="opY-fx-Z4d">
-                                <rect key="frame" x="0.0" y="103" width="393" height="58"/>
+                                <rect key="frame" x="0.0" y="59" width="393" height="58"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJb-Lh-ocn">
                                         <rect key="frame" x="170.66666666666666" y="10" width="52" height="38"/>
@@ -58,7 +58,7 @@
                                 </constraints>
                             </view>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1P7-hp-mQB">
-                                <rect key="frame" x="20" y="161" width="353" height="32"/>
+                                <rect key="frame" x="20" y="117" width="353" height="32"/>
                                 <segments>
                                     <segment title="Job"/>
                                     <segment title="Asset"/>
@@ -70,14 +70,14 @@
                                 </connections>
                             </segmentedControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQx-Sl-N6U">
-                                <rect key="frame" x="0.0" y="192" width="393" height="626"/>
+                                <rect key="frame" x="0.0" y="148" width="393" height="704"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lMM-AT-rZ1">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="626"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnh-vL-O9i">
-                                                <rect key="frame" x="10" y="25" width="80.666666666666671" height="20"/>
-                                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rnh-vL-O9i">
+                                                <rect key="frame" x="10" y="25" width="66.666666666666671" height="16.666666666666671"/>
+                                                <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="14"/>
                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -92,7 +92,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fro-77-CK7">
-                                                <rect key="frame" x="100.66666666666667" y="57.666666666666657" width="15" height="15"/>
+                                                <rect key="frame" x="100.66666666666667" y="54.333333333333343" width="15" height="15"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="15" id="fAX-2S-Lqt"/>
@@ -100,56 +100,56 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A/C repair" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n2a-rT-Xnk">
-                                                <rect key="frame" x="10" y="55" width="80.666666666666671" height="20"/>
+                                                <rect key="frame" x="10" y="51.666666666666657" width="80.666666666666671" height="20"/>
                                                 <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Estimated Time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uf6-1W-fFB">
-                                                <rect key="frame" x="10" y="100" width="373" height="20"/>
+                                                <rect key="frame" x="10" y="96.666666666666657" width="373" height="20"/>
                                                 <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="April 8 - April 10, 2023" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jl7-OE-81a">
-                                                <rect key="frame" x="10" y="130" width="373" height="20"/>
+                                                <rect key="frame" x="10" y="126.66666666666669" width="373" height="20"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Availability" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ack-Q1-oId">
-                                                <rect key="frame" x="10" y="175" width="373" height="20"/>
+                                                <rect key="frame" x="10" y="171.66666666666669" width="373" height="20"/>
                                                 <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00AM - 4:00PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WPN-Hv-LTp">
-                                                <rect key="frame" x="10" y="205" width="373" height="20"/>
+                                                <rect key="frame" x="10" y="201.66666666666669" width="373" height="20"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Job Details" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="My3-Ei-waA">
-                                                <rect key="frame" x="10" y="250" width="373" height="20"/>
+                                                <rect key="frame" x="10" y="246.66666666666669" width="373" height="20"/>
                                                 <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="253" verticalHuggingPriority="253" horizontalCompressionResistancePriority="748" verticalCompressionResistancePriority="748" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9U-Vv-PbM">
-                                                <rect key="frame" x="10" y="280" width="373" height="122"/>
+                                                <rect key="frame" x="10" y="276.66666666666669" width="373" height="122"/>
                                                 <string key="text">We require air conditioning service at our premises as soon as possible. The unit is not cooling the room effectively and seems to be making strange noises. We would appreciate prompt attention to this matter to ensure the comfort and safety of our occupants.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attachments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4nG-Ql-bGe">
-                                                <rect key="frame" x="10" y="427" width="103.66666666666667" height="20"/>
+                                                <rect key="frame" x="10" y="423.66666666666663" width="103.66666666666667" height="20"/>
                                                 <fontDescription key="fontDescription" name="Rubik-Regular" family="Rubik" pointSize="17"/>
                                                 <color key="textColor" systemColor="systemGray2Color"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uzv-z8-vPK">
-                                                <rect key="frame" x="10" y="457" width="373" height="161"/>
+                                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="uzv-z8-vPK">
+                                                <rect key="frame" x="10" y="453.66666666666663" width="373" height="390.33333333333337"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="plz-wh-Keg">
                                                     <size key="itemSize" width="86" height="81"/>
@@ -207,12 +207,12 @@
                                             <constraint firstItem="Jl7-OE-81a" firstAttribute="leading" secondItem="Uf6-1W-fFB" secondAttribute="leading" id="Wwy-7G-Zff"/>
                                             <constraint firstItem="U9U-Vv-PbM" firstAttribute="leading" secondItem="My3-Ei-waA" secondAttribute="leading" id="YRp-on-7fh"/>
                                             <constraint firstItem="My3-Ei-waA" firstAttribute="trailing" secondItem="WPN-Hv-LTp" secondAttribute="trailing" id="ZIC-Yz-ra0"/>
+                                            <constraint firstAttribute="bottom" secondItem="uzv-z8-vPK" secondAttribute="bottom" constant="8.0000000000001137" id="cG4-Ef-cuK"/>
                                             <constraint firstItem="uzv-z8-vPK" firstAttribute="top" secondItem="4nG-Ql-bGe" secondAttribute="bottom" constant="10" id="dbq-6K-WJK"/>
                                             <constraint firstAttribute="trailing" secondItem="B5q-nl-k4k" secondAttribute="trailing" constant="10" id="fS3-T5-Gfl"/>
                                             <constraint firstItem="Jl7-OE-81a" firstAttribute="trailing" secondItem="Uf6-1W-fFB" secondAttribute="trailing" id="fjJ-4B-lBO"/>
                                             <constraint firstItem="B5q-nl-k4k" firstAttribute="top" secondItem="Rnh-vL-O9i" secondAttribute="top" id="gCi-6p-zE7"/>
                                             <constraint firstItem="4nG-Ql-bGe" firstAttribute="leading" secondItem="U9U-Vv-PbM" secondAttribute="leading" id="ifD-Wx-d64"/>
-                                            <constraint firstAttribute="bottom" secondItem="uzv-z8-vPK" secondAttribute="bottom" constant="8" id="j0j-vh-hWv"/>
                                             <constraint firstItem="Uf6-1W-fFB" firstAttribute="leading" secondItem="Rnh-vL-O9i" secondAttribute="leading" id="jNz-hO-v3z"/>
                                             <constraint firstItem="n2a-rT-Xnk" firstAttribute="leading" secondItem="Rnh-vL-O9i" secondAttribute="leading" id="o07-QE-LeU"/>
                                             <constraint firstItem="Uf6-1W-fFB" firstAttribute="top" secondItem="n2a-rT-Xnk" secondAttribute="bottom" constant="25" id="q6r-fr-oe9"/>
@@ -226,7 +226,7 @@
                                         </constraints>
                                     </view>
                                     <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IN3-5r-iC4">
-                                        <rect key="frame" x="0.0" y="0.0" width="393" height="626"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Company Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VCe-8d-2YU">
                                                 <rect key="frame" x="15" y="20" width="348" height="19"/>
@@ -451,7 +451,6 @@
                                     <constraint firstItem="IN3-5r-iC4" firstAttribute="top" secondItem="EQx-Sl-N6U" secondAttribute="top" id="0WM-KY-Exi"/>
                                     <constraint firstAttribute="bottom" secondItem="IN3-5r-iC4" secondAttribute="bottom" id="16N-Zg-D6X"/>
                                     <constraint firstAttribute="trailing" secondItem="IN3-5r-iC4" secondAttribute="trailing" id="4hC-1t-8Ni"/>
-                                    <constraint firstItem="IN3-5r-iC4" firstAttribute="height" secondItem="EQx-Sl-N6U" secondAttribute="height" id="6d2-5P-GFw"/>
                                     <constraint firstAttribute="trailing" secondItem="lMM-AT-rZ1" secondAttribute="trailing" id="6e5-K8-c9U"/>
                                     <constraint firstItem="IN3-5r-iC4" firstAttribute="top" secondItem="EQx-Sl-N6U" secondAttribute="top" id="Umh-KH-P8U"/>
                                     <constraint firstItem="IN3-5r-iC4" firstAttribute="width" secondItem="EQx-Sl-N6U" secondAttribute="width" id="Wwf-zR-nxU"/>
@@ -466,11 +465,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="1P7-hp-mQB" firstAttribute="top" secondItem="opY-fx-Z4d" secondAttribute="bottom" id="0tQ-eU-UNX"/>
-                            <constraint firstItem="EQx-Sl-N6U" firstAttribute="bottom" secondItem="TnC-Y2-8QN" secondAttribute="bottom" id="AZV-JU-J47"/>
+                            <constraint firstItem="EQx-Sl-N6U" firstAttribute="bottom" secondItem="KpU-gG-WpY" secondAttribute="bottom" id="AZV-JU-J47"/>
                             <constraint firstItem="EQx-Sl-N6U" firstAttribute="leading" secondItem="TnC-Y2-8QN" secondAttribute="leading" id="MYW-dD-iMX"/>
+                            <constraint firstItem="IN3-5r-iC4" firstAttribute="height" secondItem="KpU-gG-WpY" secondAttribute="height" priority="250" id="PC6-85-IbZ"/>
+                            <constraint firstItem="lMM-AT-rZ1" firstAttribute="height" secondItem="KpU-gG-WpY" secondAttribute="height" priority="250" id="TxM-eo-2Rj"/>
                             <constraint firstItem="TnC-Y2-8QN" firstAttribute="trailing" secondItem="EQx-Sl-N6U" secondAttribute="trailing" id="aHN-9d-cuE"/>
                             <constraint firstItem="opY-fx-Z4d" firstAttribute="top" secondItem="TnC-Y2-8QN" secondAttribute="top" id="aIR-9f-Img"/>
-                            <constraint firstItem="lMM-AT-rZ1" firstAttribute="height" secondItem="EQx-Sl-N6U" secondAttribute="height" id="d2R-Ve-wu0"/>
                             <constraint firstItem="1P7-hp-mQB" firstAttribute="top" secondItem="opY-fx-Z4d" secondAttribute="bottom" id="fOn-bd-aiL"/>
                             <constraint firstItem="opY-fx-Z4d" firstAttribute="leading" secondItem="TnC-Y2-8QN" secondAttribute="leading" id="iNs-go-JuC"/>
                             <constraint firstItem="opY-fx-Z4d" firstAttribute="trailing" secondItem="TnC-Y2-8QN" secondAttribute="trailing" id="iWH-nm-s0n"/>
@@ -530,10 +530,9 @@
         <!--Navigation Controller-->
         <scene sceneID="kUW-RZ-jsv">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="djl-Dt-xrt" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="djl-Dt-xrt" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pan-MH-9ZP">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

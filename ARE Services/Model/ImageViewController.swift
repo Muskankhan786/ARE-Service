@@ -8,15 +8,13 @@
 import UIKit
 
 class ImageViewController: UIViewController {
-
+    
     @IBOutlet weak var imgViewFull: UIImageView!
+    
     var imgFull = UIImage()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         self.imgViewFull.image = self.imgFull
     }
-    
-
 }
