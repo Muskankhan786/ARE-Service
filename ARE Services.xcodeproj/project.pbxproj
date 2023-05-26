@@ -14,6 +14,8 @@
 		D90D93512A1C84B2008D0CC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90D93502A1C84B2008D0CC7 /* Assets.xcassets */; };
 		D90D93542A1C84B2008D0CC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90D93522A1C84B2008D0CC7 /* LaunchScreen.storyboard */; };
 		D918E3072A1CCBC00051B424 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D918E3062A1CCBC00051B424 /* CollectionViewCell.swift */; };
+		D94F39822A1F5D170046CA1E /* AttachmentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F39812A1F5D170046CA1E /* AttachmentsModel.swift */; };
+		D94F39862A1F7E080046CA1E /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94F39852A1F7E080046CA1E /* ImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		D918E3042A1CC4D80051B424 /* Rubik-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
 		D918E3052A1CC4D80051B424 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
 		D918E3062A1CCBC00051B424 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		D94F39812A1F5D170046CA1E /* AttachmentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentsModel.swift; sourceTree = "<group>"; };
+		D94F39852A1F7E080046CA1E /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +80,10 @@
 				D90D93492A1C84B0008D0CC7 /* SceneDelegate.swift */,
 				D90D934B2A1C84B0008D0CC7 /* ViewController.swift */,
 				D918E3062A1CCBC00051B424 /* CollectionViewCell.swift */,
+				D94F39802A1F5CE40046CA1E /* Model */,
 				D918E2F72A1CC4BA0051B424 /* Fonts */,
 				D90D934D2A1C84B0008D0CC7 /* Main.storyboard */,
+				D94F39852A1F7E080046CA1E /* ImageViewController.swift */,
 				D90D93502A1C84B2008D0CC7 /* Assets.xcassets */,
 				D90D93522A1C84B2008D0CC7 /* LaunchScreen.storyboard */,
 				D90D93552A1C84B2008D0CC7 /* Info.plist */,
@@ -104,6 +110,14 @@
 				D918E3002A1CC4D80051B424 /* Rubik-SemiBoldItalic.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D94F39802A1F5CE40046CA1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D94F39812A1F5D170046CA1E /* AttachmentsModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,8 +192,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90D934C2A1C84B0008D0CC7 /* ViewController.swift in Sources */,
+				D94F39822A1F5D170046CA1E /* AttachmentsModel.swift in Sources */,
 				D90D93482A1C84B0008D0CC7 /* AppDelegate.swift in Sources */,
 				D918E3072A1CCBC00051B424 /* CollectionViewCell.swift in Sources */,
+				D94F39862A1F7E080046CA1E /* ImageViewController.swift in Sources */,
 				D90D934A2A1C84B0008D0CC7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
