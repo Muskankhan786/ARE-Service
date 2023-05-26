@@ -6,7 +6,9 @@
 //
 
 import Foundation
+
 class AttachmentsModel {
+    
     var arrImageName: [String]
     var arrImage:[String]
     

@@ -10,10 +10,9 @@ import AVFoundation
 
 class CollectionViewCell: UICollectionViewCell {
     
-    @IBOutlet weak var imgAttachments: UIImageView!
+    @IBOutlet weak var imgView: UIImageView!
     
-    func imgRender(imagesOfService: UIImage) {
-        self.imgAttachments.image = imagesOfService
+    func dataRender(image: UIImage) {
+        self.imgView.image = image
     }
-    
 }

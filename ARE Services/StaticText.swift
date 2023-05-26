@@ -8,6 +8,6 @@
 import Foundation
 
 struct StaticText {
-    static var cellIdentifier = "Cell"
-    static var storyboardIdentifier = "ImageViewController"
+    static var cell = "Cell"
+    static var imageViewController = "ImageViewController"
 }
