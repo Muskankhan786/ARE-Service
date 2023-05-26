@@ -59,6 +59,10 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource, 
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+//        if (UIDevice.current.userInterfaceIdiom == .pad){
+//            let width = UIScreen.main.currentMode?.size.width
+//            return CGSize(width: width ?? 150, height: width ?? 150)
+//        }
         let width = collectionView.bounds.width/3.5
         return CGSize(width: width, height: width)
     }
